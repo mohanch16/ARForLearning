@@ -48,7 +48,6 @@ public class ObjectPlacement : MonoBehaviour
 
             if (buttons[i].name == buttonName)
             {
-
                 objIndex = i;
             }
         }

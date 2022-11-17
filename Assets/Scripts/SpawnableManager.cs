@@ -13,6 +13,10 @@ public class SpawnableManager : MonoBehaviour
     [SerializeField]
     public GameObject spawnablePrefab;
 
+    public bool allowMultipleObjects = true;
+
+    public GameObject[] animationControls;
+
     Camera arCam;
     GameObject spawnedObject;
 
@@ -46,7 +50,16 @@ public class SpawnableManager : MonoBehaviour
                     }
                     else
                     {
-                        this.SpawnPrefab(this.m_Hits[0].pose.position);                        
+                        this.SpawnPrefab(this.m_Hits[0].pose.position);     
+                        
+                        // activating animation controls
+                        if (this.animationControls != null && this.animationControls.Length > 0) 
+                        {
+                            for (int index = 0; index < this.animationControls.Length; index++)
+                            {
+                                this.animationControls[index].SetActive(true);
+                            }
+                        }                   
                     }
                 }
             }
@@ -55,7 +68,7 @@ public class SpawnableManager : MonoBehaviour
                 this.spawnedObject.transform.position = this.m_Hits[0].pose.position;
             }
 
-            if (Input.GetTouch(0). phase == TouchPhase.Ended)
+            if (this.allowMultipleObjects && Input.GetTouch(0). phase == TouchPhase.Ended)
             {
                 this.spawnedObject = null;
             }

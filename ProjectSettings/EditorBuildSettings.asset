@@ -12,14 +12,20 @@ EditorBuildSettings:
     path: Assets/Scenes/ObjectSpawner.unity
     guid: 8c09fd3a319bf4fe6b1a54167e31b187
   - enabled: 1
+    path: Assets/Scenes/ImageTracking.unity
+    guid: dfdf5e71408c9412b959eb6df7219b40
+  - enabled: 1
     path: Assets/Scenes/BearDemo.unity
     guid: c96a58d2911954d54ad7f30ffbaa05db
   - enabled: 1
     path: Assets/Scenes/InteractiveObject.unity
     guid: 6ef37f17e93a44903a71aed097b8c8dd
   - enabled: 1
-    path: Assets/Scenes/archived/Simple city view.unity
-    guid: 961a629e5e59145008c1159580a5eb0b
+    path: Assets/Scenes/NYC Model View.unity
+    guid: 2ec8fcd3726a144c1a16aa73ef45cef0
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 41e4dd0d32c564cb8af241cfd2b07417
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

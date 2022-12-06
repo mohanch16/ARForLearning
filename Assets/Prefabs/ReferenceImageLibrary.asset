@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4889326350364127301
+  m_GuidHigh: 11693787584680084149
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5599265903074464713
+      m_GuidHigh: 4408496493374177719
+    m_SerializedTextureGuid:
+      m_GuidLow: 3761157776570053014
+      m_GuidHigh: 9285303118976303113
+    m_Size: {x: 0.093, y: 0.058233645}
+    m_SpecifySize: 1
+    m_Name: Student-Id
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5623903933565382737
+      m_GuidHigh: 414501164604168839
+    m_SerializedTextureGuid:
+      m_GuidLow: 14190792188012667013
+      m_GuidHigh: 16266805074314211706
+    m_Size: {x: 0.21, y: 0.2721048}
+    m_SpecifySize: 1
+    m_Name: spiderman_2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5705357032525475416
+      m_GuidHigh: 7540156977081499265
+    m_SerializedTextureGuid:
+      m_GuidLow: 8391804631146310650
+      m_GuidHigh: 18030743443374831003
+    m_Size: {x: 0.28, y: 0.21469747}
+    m_SpecifySize: 1
+    m_Name: spider_text
+    m_Texture: {fileID: 0}
